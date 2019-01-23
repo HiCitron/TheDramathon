@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About us : The dramathon</title>
+	<meta name="About us : The dramathon" content="About us, who we are, where it all started, contact us!">
+
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="./content/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./content/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./content/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./content/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="./content/favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="./content/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="./content/favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="./content/favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="./content/favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="./content/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="./content/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="./content/favicon/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="./content/favicon/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+	<!-- Responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|Kelly+Slab" rel="stylesheet">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="./styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="./styles/navbartheme.css">
+	<link rel="stylesheet" type="text/css" href="./styles/contact.css">
+	<link rel="stylesheet" type="text/css" href="./styles/module.css">
+	<link rel="stylesheet" type="text/css" href="./styles/footer.css">
+	<script src="./js/contact.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<img src="content/nslogo.gif" class="img-responsive" alt="Logo" id="logo">
+				<a class="navbar-brand title" id="tit" href="index.html">The Dramathon</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="./Event.html">The Event</a></li>
+					<li><a href="./Results.html">Results</a></li>
+					<li><a href="https://www.entrycentral.com/thedramathon">Register</a></li>
+					<li><a href="./FAQ.html">F.A.Q.</a></li>
+					<li><a href="./Aboutus.html">About us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container module">
+		<h1>About us</h1>
+		<div class="question">
+			<br>
+			<h3>How it all started</h3>
+			<p>The Dramathon was dreamed up by Jon Dunderdale and Ian King over a dram or two. We are running and single malt enthusiasts (one of us is better at running, the other is better at whisky).</p>
+			<p>We aim to create an event which is well-put together and professionally organised, but that retains a sense of humour, a chilled-out atmosphere, is inclusive, and great value for money. This is all supposed to be fun - right?</p>
+			<p>To deliver The Dramathon we have partnered with <a href="http://www.durtyevents.com/">Durty Events</a>, run by Paul McGreal.</p>
+			<p>Paul was the Race Director for the ITU World Duathlon Championships held in Edinburgh in 2010, and the ITU World Paratriathlon Series race held at Strathclyde Park in 2016. He was Event Director of the IOF World Orienteering Championships 2015 (an event with an economic impact of £9.5M and involving 1500+ volunteers).</p>
+			<p>He was a member of the Triathlon Scotland Board of Directors with responsibility for the development of off-road racing in the country from 2008-2015. Whilst we're banging on about this kind of thing, Paul was also the GBR Age Group Team Manager for the European and World Cross Triathlon Championship teams for 3 years.</p><br>
+		</div>
+	</div>
+
+	<div class="container contact" id="contact">
+		<form action="contact.php" method="post" id="contactform" onsubmit="return validateForm()">
+  			<h3><span class="glyphicon glyphicon-envelope"></span>Contact us</h3>
+  			<div class="inputs">
+  				<p id="alert"></p>
+	  			<h4><span class="glyphicon glyphicon-user"></span>Your name</h4><input type="text" name="name"><br>
+	  			<h4><span class="glyphicon glyphicon-envelope"></span>Your email</h4><input type="text" name="email"><br>
+	  			<h4><span class="glyphicon glyphicon-pencil"></span>Subject</h4><input type="text" name="subject"><br>
+	  			<h4><span class="glyphicon glyphicon-comment"></span>Content</h4>
+  			</div>
+		</form>
+		<textarea form ="contactform" name="content" cols="80" rows="8" wrap="soft"></textarea>
+		<input type="submit" value="Send it" form="contactform" class="submitbutton btn btn-primary btn-lg" />
+	</div>
+
+	<footer class="footer">
+    	<div class="container">
+	      	<div class="footer-brand">
+	      		<img src="content/nslogo.gif" class="img-responsive" alt="Logo" id="logo">
+				<h3 id="footer-brand-name">The Dramathon</h3>
+				<div class="footer-gobackup">
+					<a href="#logo">Up <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
+				</div>
+			</div>
+			<div class="footer-data">
+				<div class="social">
+					<a href="https://www.facebook.com/The-Dramathon-105544339878704/?fref=ts" class="social"><img src="content/icon/facebook.png" alt="Logo" class="social-logo">
+					<h3 class="social-h3">Find The Dramathon</h3></a>
+				</div>
+				<div class="social">
+					<a href="https://twitter.com/Thedramathon?lang=en" class="social">
+						<img src="content/icon/twitter.png" alt="Logo" class="social-logo">
+						<h3 class="social-h3">Follow The Dramathon</h3>
+					</a>
+				</div>
+				<div class="footer-contact">
+					<p>A question? Check out the <a href="FAQ.html">F.A.Q.</a> or <a href="aboutus.html#contact">Contact us!</a></p>
+					<a href="terms.html">Terms and conditions</a><br>
+					<a href="./content/The_Dramathon_data_protection_policy_2018.pdf"">Data Protection Policy</a>
+
+					<div class="footer-signature">Website designed by Philippe MARCHANDISE<br>Registered in Scotland - 554117</div>
+				</div>
+			</div>
+		</div>
+    </footer>
+</body>
+</html>

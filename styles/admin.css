@@ -1,0 +1,73 @@
+h1.title {
+    margin: 0;
+    padding: 20px;
+    background-color: #303030;
+    color: #ffae00;
+    border-bottom: 2px solid;
+}
+div.main {
+    width: 90%;
+    margin: auto;
+    font-family: Helvetica;
+}
+div.main > h3 {
+    border-bottom: 1px solid;
+}
+
+div.header > button.editbtn, form > input[type="submit"] {
+    border-radius: 3px;
+    border-width: 0;
+    padding: 5px 15px;
+    font-size: 18px;
+    color: #ffae00;
+    background-color: #303030;
+    height: 32px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+div.header > button.editbtn > a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+div.header {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid;
+    border-radius: 5px 5px 0 0;
+    color: #ffae00;
+    background-color: #303030;
+}
+div.header > h2.loaded {
+    margin: 0;
+    width: 90%;
+    float: left;
+}
+div.header > button.editbtn {
+    width: 10%;
+}
+
+select {
+    font-size: 20px;
+    padding: 3px 8px;
+    background-color: #303030;
+    color: #ffae00;
+    border: 1px solid #303030;
+    border-radius: 3px;
+}
+div.loaded {
+    border: 1px solid #303030;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+form.edit > input, div.question > input {
+    width: 100%;
+}
+.module .question p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}

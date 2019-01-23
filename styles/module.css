@@ -1,0 +1,111 @@
+.module h1 {
+	font-family: 'Kelly Slab';
+	font-size: 48px;
+	color: #404040;
+	text-align: center;
+	border-bottom: 4px solid #ffae00;
+}
+.module .question h3 {
+	font-family: 'Kelly Slab';
+	font-size: 30px;
+	border-bottom: solid 2px #808080;
+}
+.module .question p {
+	font-size: 18px;
+	padding: 10px;
+	text-align: justify;
+}
+.module .question img {
+	width: 20%;
+}
+.module .question img.left {
+	float: left;
+	margin-right: 10px;
+}
+.module .question img.right {
+	float: right;
+	margin-left: 10px;
+}
+.module .question p.quote {
+	font-family: Corsiva;
+	font-style: italic;
+	font-size: 24px;
+}
+.module .question div.leftdiv {
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+}
+.module .question div.rightdiv {
+	width: 48%;
+	margin-left: 2%;
+	float: left;
+}
+.module .question .logo-container {
+	width: 100%;
+	padding: 10px;
+}
+.module .question .logo-container img {
+	width: 100%;
+	height: auto;
+}
+
+.module .question a {
+	color: #ffae00;
+	font-family: 'Kelly Slab';
+}
+
+.module .question .sponsor-name {
+	width: 100%;
+	font-family: 'Kelly Slab';
+	font-size: 30px;
+	border-bottom: solid 2px #808080
+}
+.module .question .sponsor-name span.sponsor-class {
+	float: right;
+	text-align: right;
+	font-family: 'Kelly Slab';
+	font-size: 30px;
+	color: #808080;
+}
+
+@media only screen and (max-width: 700px) { /*for mobiles*/
+    .module .question div.leftdiv {
+	width: 100%;
+	margin: 0;
+	float: none;
+	}
+	.module .question div.rightdiv {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+}
+@media only screen and (max-width: 987px) { /*for mobiles*/
+	.module .question .sponsor-name {
+		width: 100%;
+		font-family: 'Kelly Slab';
+		font-size: 24px;
+		border-bottom: solid 2px #808080
+	}
+	.module .question .sponsor-name span.sponsor-class {
+		float: right;
+		text-align: right;
+		font-family: 'Kelly Slab';
+		font-size: 24px;
+		color: #808080;
+	}
+}
+ol.alpha {
+	margin-left: 30px;
+	list-style-type: lower-alpha;
+}
+ol.alpha ol.sub {
+	margin-left: 50px;
+	list-style-type: lower-roman;
+}
+
+.module .question img.elevation {
+	width: 100%;
+	height: auto;
+}

@@ -1,0 +1,19 @@
+.FAQ .question h3 {
+	font-size: 30px;
+	border-bottom: solid 2px #808080;
+}
+.FAQ .question p {
+	font-size: 18px;
+	padding: 10px;
+}
+.FAQ .question img {
+	width: 40%;
+}
+.FAQ .question img.left {
+	float: left;
+	margin-right: 10px;
+}
+.FAQ .question img.right {
+	float: right;
+	margin-left: 10px;
+}

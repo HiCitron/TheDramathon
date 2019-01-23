@@ -1,0 +1,67 @@
+.footer {
+	margin-top: 50px;
+	width:100%;
+	background-color: #303030;
+}
+.footer-brand {
+	border-bottom: solid 1px #fff7db;
+	height: 50px;
+}
+#footer-brand-name {
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	font-family: 'Kelly Slab';
+	font-size: 24px;
+	font-weight: 800;
+	color: #ffae00;
+	float: left;
+}
+.footer-brand .footer-gobackup {
+	float: none;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.footer-brand .footer-gobackup a {
+	font-family: 'Kelly Slab';
+	font-size: 20px;
+	font-weight: 800;
+	color: #fff7db;
+}
+.footer-data div.social {
+	float: none;
+	height: 50px;
+}
+.footer-data a img.social-logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+
+}
+.footer-data div a h3.social-h3 {
+	padding-top: 15px;
+	padding-left: 55px;
+	font-family: 'Kelly Slab';
+	font-size: 20px;
+	color: #fff7db;
+}
+.footer-data .footer-contact p {
+	padding-top: 10px;
+	font-family: 'Kelly Slab';
+	font-size: 16px;
+	color: #fff7db;
+}
+.footer-data .footer-contact a {
+	font-family: 'Kelly Slab';
+	color: #ffae00;
+	font-weight: 600;
+}
+.footer-data .footer-contact .footer-signature {
+	float: right;
+	text-align: right;
+	color: #808080;
+	font-family: Arial;
+	font-size: 10px;
+	padding-bottom: 10px;
+}

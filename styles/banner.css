@@ -1,0 +1,97 @@
+#banner {
+	width: 100%;
+	padding: 3px;
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+	border-top: solid 1px #ffae00;
+	border-bottom: solid 1px #ffae00;
+	background: #303030;
+	color: #ffae00;
+}
+
+#timerd {
+	width: 35%;
+	padding-left: 3.5%;
+	float:left;
+	font-weight: 600;
+	font-size: 30px;
+}
+.digit {
+	width: 20%;
+	float:left;
+}
+.digit h6 {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+.digitn {
+	width: 100%;
+	background-color: #404040;
+	color: #ffae00;
+	border: solid 1px transparent;
+	border-radius: 5px;
+}
+.dp {
+	float:left;
+}
+
+#joinus {
+	width: 30%;
+	float: left;
+}
+#joinus > form > button {
+	font-family: 'Kelly Slab';
+	font-size: 24px;
+	font-weight: 600;
+	width: 100%;
+	border-color: rgba(88,44,22,0.5);
+	background-color: #ffae00;
+	color: #303030;
+}
+#joinus > form > button:hover {
+	width: 100%;
+	background-color: #ee9900;
+	color: #fff7db;
+}
+
+#date {
+	font-family: 'Kelly Slab';
+	font-size: 26px;
+	width: 35%;
+	float: left;
+	margin-top: 8px;
+}
+@media (max-width: 767px) {
+	#part {
+		font-size: 20px;
+		width: 100%;
+		float: none;
+	}
+	#joinus {
+		width: 100%;
+		float: none;
+	}
+	#joinus > button {
+	  	font-size: 24px;
+	}
+	#timerd {
+	  	margin-top: 4px;
+	  	font-size: 20px;
+		width: 100%;
+		float: none;
+		padding-left: 13%;
+	}
+	.digit h6 {
+		font-size: 12px;
+	}
+	.dp {
+		font-size: 14px;
+	}
+	#date {
+	  	font-size: 20px;
+	  	width: 100%;
+		float: none;
+	}
+}

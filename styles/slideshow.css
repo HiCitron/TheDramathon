@@ -1,0 +1,93 @@
+#slideshowc {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+.carousel-caption {
+    background-color: transparent;
+    font-family: 'Kelly Slab';
+    left: 10%;
+    height: 100%;
+    width: 80%;
+}
+.carousel-caption h1 {
+    font-size: 80px;
+}
+.carousel-caption h3 {
+    font-size: 55px;
+}
+.carousel-caption p {
+    font-size: 30px;
+}
+.carousel-caption p.long {
+    color: #fff7db;
+}
+
+#caption1 {
+    left: 20%;
+    padding-top: 50px;
+    color: #ffae00;
+    text-shadow: -2px -2px #303030;
+}
+#caption2, #caption3 {
+    color: #fff7db;
+    text-shadow: -2px -2px #303030;
+}
+#caption4 {
+    color: #ffae00;
+    text-shadow: -2px -2px #303030;
+}
+
+@media only screen and (max-width: 500px) { /*for mobiles*/
+    #caption1 {
+        left: 10%;
+        padding-top: 0;
+        color: #ffae00;
+        text-shadow: -1px -1px #303030;
+    }
+    #caption2, #caption3 {
+        color: #fff7db;
+        text-shadow: -1px -1px #303030;   
+    }
+    #caption4 {
+        color: #ffae00;
+        text-shadow: -1px -1px #303030;
+    }
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    .carousel-caption h3 {
+        font-size: 18px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 500px) { /*for tablets*/
+    #caption1 {
+        left: 10%;
+        padding-top: 0;
+        color: #ffae00;
+        text-shadow: -1px -1px #303030;
+    }
+    #caption2, #caption3 {
+        color: #fff7db;
+        text-shadow: -1px -1px #303030;   
+    }
+    #caption4 {
+        color: #ffae00;
+        text-shadow: -1px -1px #303030;
+    }
+    .carousel-caption h1 {
+        font-size: 60px;
+    }
+    .carousel-caption h3 {
+        font-size: 36px;
+    }
+    .carousel-caption p {
+        font-size: 20px;
+    }
+}
