@@ -30,7 +30,7 @@ function startTimer(end, d) {
 
 window.onload = function () {
 
-    var end = new Date("May 20, 2019 10:00:00");
+    var end = new Date("August 24, 2020 10:00:00");
     var d = [ document.querySelector('#days'),
               document.querySelector('#hours'),
               document.querySelector('#minutes'),
